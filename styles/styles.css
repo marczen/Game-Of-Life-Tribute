@@ -1,0 +1,118 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+#mainContainer {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 64px 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label {
+  font-style: italic;
+  margin-right: auto;
+}
+
+textarea {
+  width: 100%;
+  outline: none;
+  resize: none;
+}
+
+button {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  height: 50px;
+  width: 160px;
+  margin-top: 32px;
+  background-color: #06f;
+  /* background-color: #fbf5d0; */
+  color: white;
+  border-radius: 10px;
+  border: none;
+  transition-duration: 0.2s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  /* background-color: #0056d8; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  width: 100%
+}
+
+.button-second {
+  background-color: white;
+  color: black;
+  border: #d8d8d8 solid 1px;
+} 
+
+footer {
+  margin-top: 80px;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
+
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-right: auto;
+}
+
+#universe-canvas {
+  min-height: 250px;
+  /* background-color: #f4f4f4; */
+  border: #d8d8d8 solid 1px;
+  border-radius: 16px;
+  white-space: pre;
+  text-align:center;
+  font-size: 24px;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#universe-canvas p {
+  font-weight: 1800;
+}
